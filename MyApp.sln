@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{56D0AFDC-1848-4177-A46D-74E045A826D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0AA5F138-BA56-4A68-9E21-0AC2734FF877}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{511CDC9D-58EE-4292-B8F8-E892C4A2EFF5}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MyApp.vsmdi = MyApp.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Tests", "..\Deployment1\MyApp.Tests\MyApp.Tests.csproj", "{41CB5D18-447C-4C05-B305-E3D2892479BC}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MyApp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D0AFDC-1848-4177-A46D-74E045A826D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D0AFDC-1848-4177-A46D-74E045A826D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D0AFDC-1848-4177-A46D-74E045A826D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D0AFDC-1848-4177-A46D-74E045A826D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CB5D18-447C-4C05-B305-E3D2892479BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CB5D18-447C-4C05-B305-E3D2892479BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CB5D18-447C-4C05-B305-E3D2892479BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CB5D18-447C-4C05-B305-E3D2892479BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

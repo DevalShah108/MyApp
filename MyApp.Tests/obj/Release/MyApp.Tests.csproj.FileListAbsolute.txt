@@ -1,0 +1,5 @@
+E:\Deployment\MyApp.Tests\bin\Release\MyApp.Tests.dll
+E:\Deployment\MyApp.Tests\bin\Release\MyApp.Tests.pdb
+E:\Deployment\MyApp.Tests\obj\Release\ResolveAssemblyReference.cache
+E:\Deployment\MyApp.Tests\obj\Release\MyApp.Tests.dll
+E:\Deployment\MyApp.Tests\obj\Release\MyApp.Tests.pdb
